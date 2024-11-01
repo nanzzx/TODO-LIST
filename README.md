@@ -45,7 +45,7 @@ Make sure you have the following installed:
 
 4. Set up your MongoDB database:
 
-Make sure your MongoDB server is running locally or adjust the connection string in index.js as needed.
+   Make sure your MongoDB server is running locally or adjust the connection string in index.js as needed.
 
 5. Start the backend server:
 
@@ -54,9 +54,8 @@ Make sure your MongoDB server is running locally or adjust the connection string
    
 6. Open another terminal and navigate to the client directory:
 
-bash
-  cd client
-
+   ```bash
+   cd client
 
 7. Install dependencies for the client:
 

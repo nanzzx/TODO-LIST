@@ -31,3 +31,51 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/todo-list-app.git
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd todo-list-app
+
+3. Install dependencies for the server:
+
+   ```bash
+   cd Server
+   npm install
+
+4. Set up your MongoDB database:
+
+Make sure your MongoDB server is running locally or adjust the connection string in index.js as needed.
+
+5. Start the backend server:
+
+   ```bash
+   node index.js
+   
+6. Open another terminal and navigate to the client directory:
+
+bash
+  cd client
+
+
+7. Install dependencies for the client:
+
+   ```bash
+   npm install
+
+8. Start the React application:
+
+   ```bash
+   npm start
+
+9. Open your web browser and go to http://localhost:3000 to see your Todo List application in action.
+
+## Usage
+Add tasks to your Todo list by typing in the input field and clicking the "Add" button.
+Click on a task to mark it as complete or incomplete.
+Use the delete icon to remove a task from the list.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
+
+
